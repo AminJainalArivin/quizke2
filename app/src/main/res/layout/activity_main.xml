@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:textStyle="bold"
+        android:paddingBottom="15dp"
+        android:textSize="24dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:id="@+id/rgps">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Ps5"
+            android:paddingRight="10dp"
+            android:id="@+id/rbps5"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:paddingRight="10dp"
+            android:text="Ps4"
+            android:id="@+id/rbps4"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:paddingRight="10dp"
+            android:text="Ps3"
+            android:id="@+id/rbps3"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:paddingRight="10dp"
+            android:text="PsVR"
+            android:id="@+id/rbpsvr"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambahan"
+        android:textStyle="bold"
+        android:paddingBottom="15dp"
+        android:textSize="24dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/rgtambahan">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Indomie"
+            android:paddingRight="10dp"
+            android:id="@+id/rbIndomie"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:paddingRight="10dp"
+            android:text="Mie Ayam"
+            android:id="@+id/rbMie"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:paddingRight="10dp"
+            android:text="Siomay"
+            android:id="@+id/rbSiomay"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvwaktu"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:text="Waktu"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:paddingTop="15dp"
+        />
+
+    <EditText
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:hint="Jam"
+        android:textSize="18dp"
+        android:id="@+id/etjam"/>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proses"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:id="@+id/btnproses"
+        />
+</LinearLayout>
